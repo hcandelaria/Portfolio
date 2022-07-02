@@ -1,0 +1,43 @@
+#homePage{
+    background-color: #1e1e2e;
+}
+
+#welcome{
+    color: #FFFFFF;
+    font-family: Merkur;
+    font-size: 20vh;
+    height: 100vh;
+    -webkit-animation: flickerAnimation 3s infinite;
+    -moz-animation: flickerAnimation 3s infinite;
+    -o-animation: flickerAnimations 3s infinite;
+    animation: flickerAnimation 3s infinite;
+}
+
+@media only screen and (max-width: 375px) {
+    
+    #welcome{
+        font-size: 15vw;
+
+    }
+}
+@keyframes flickerAnimation {
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+}
+
+@-o-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:0; }
+    50%  { opacity:1; }
+    100% { opacity:0; }
+}
