@@ -12,14 +12,14 @@ class Home extends React.Component {
   }
   render() {
     return (
-        <Col id='homePage'
-          md={10}>
-            <Container 
-              fluid
-              className="d-flex align-items-center justify-content-center"
+        <Col 
+          md={10}
+          className="d-flex align-items-center justify-content-center"
+          id='homePage'>
+            <div
               id='welcome'>
               Welcome
-            </Container>
+            </div>
         </Col>
     );
   }

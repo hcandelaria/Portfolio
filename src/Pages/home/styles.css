@@ -1,11 +1,7 @@
-#homePage{
-}
-
 #welcome{
     color: #FFFFFF;
     font-family: Merkur;
     font-size: 20vh;
-    height: 100vh;
     -webkit-animation: flickerAnimation 3s infinite;
     -moz-animation: flickerAnimation 3s infinite;
     -o-animation: flickerAnimations 3s infinite;

@@ -12,14 +12,11 @@ class About extends React.Component {
   }
   render() {
     return (
-      <Col id='aboutPage'
-        md={10}>
-          <Container 
-            fluid
-            className="d-flex align-items-center justify-content-center"
-            id='about'>
-              About
-          </Container>
+      <Col 
+        md={10}
+        className="d-flex align-items-center justify-content-center"
+        id='aboutPage'>
+          About
       </Col>
     );
   }
