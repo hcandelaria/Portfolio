@@ -18,6 +18,8 @@ class Nav extends React.Component {
           <Link to="/">Home</Link>
           <br/>
           <Link to="/about">About</Link>
+          <br/>
+          <Link to="/projects">projects</Link>
         </Col>
     );
   }
