@@ -14,6 +14,7 @@ class About extends React.Component {
     return (
       <Col 
         md={10}
+        style={{color:'white'}}
         className="d-flex align-items-center justify-content-center"
         id='aboutPage'>
           About
