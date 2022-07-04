@@ -1,6 +1,7 @@
 import './styles.css';
-import { Col, Container } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
 import React from 'react';
+import Card from '../../Components/card'
 
 class Projects extends React.Component {
   constructor(props) {
@@ -17,7 +18,7 @@ class Projects extends React.Component {
           md={10}
           style={{color:'white'}}
           id='projectsPage'>
-              Projects
+            <Card />
         </Col>
     );
   }
