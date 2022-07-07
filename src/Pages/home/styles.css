@@ -1,4 +1,8 @@
-#welcome{
+#homePage {
+    height: 100vh;
+}
+
+#welcome {
     color: #FFFFFF;
     font-family: Merkur;
     font-size: 20vh;
@@ -8,30 +12,39 @@
     animation: flickerAnimation 3s infinite;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 1200px) {
     
     #welcome{
         font-size: 15vw;
 
     }
 }
+@media only screen and (max-width: 375px) {
+    
+    #welcome{
+        font-size: 12vw;
+
+    }
+}
+
+
 @keyframes flickerAnimation {
     0%   { opacity:0; }
     50%  { opacity:1; }
     100% { opacity:0; }
 }
 
-@-o-keyframes flickerAnimation{
+@-o-keyframes flickerAnimation {
     0%   { opacity:0; }
     50%  { opacity:1; }
     100% { opacity:0; }
 }
-@-moz-keyframes flickerAnimation{
+@-moz-keyframes flickerAnimation {
     0%   { opacity:0; }
     50%  { opacity:1; }
     100% { opacity:0; }
 }
-@-webkit-keyframes flickerAnimation{
+@-webkit-keyframes flickerAnimation {
     0%   { opacity:0; }
     50%  { opacity:1; }
     100% { opacity:0; }
