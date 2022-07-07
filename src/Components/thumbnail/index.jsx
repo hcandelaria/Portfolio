@@ -10,8 +10,10 @@ class Thumbnail extends React.Component {
   render() {
     return (
       <Image
+        id="profile-image"
         thumbnail
         roundedCircle
+        className='mx-auto d-block'
         src="https://toppng.com/public/uploads/preview/salamence-pokemon-anime-pocketmonsters-pokemon-pokemon-salamence-11562942170psv2llmtj7.png"
       />
     );
