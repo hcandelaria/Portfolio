@@ -6,7 +6,7 @@ import { Container, Row } from 'react-bootstrap';
 import Home from './Pages/home';
 import About from './Pages/about';
 import Projects from './Pages/projects';
-import Nav from './Components/nav'
+import NavigationMenu from './Components/navigationMenu'
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <Container fluid>
         <Row>
           <BrowserRouter>
-            <Nav />
+            <NavigationMenu />
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="about" element={<About />} />
