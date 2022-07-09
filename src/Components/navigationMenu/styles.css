@@ -1,96 +1,92 @@
 #nav-container {
-    background-color: #1b1b2a;
-    position: relative;
-    max-width: 1440px;
-    height: 100vh;
-    width: 120px;
-    margin: auto;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
+  background-color: #1b1b2a;
+  position: relative;
+  max-width: 1440px;
+  height: 100vh;
+  width: 120px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
 }
 #nav-menu li {
-    list-style-type: none;
+  list-style-type: none;
 }
 #menu-button {
-    /* background-color: #1b1b2a; */
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
-#menu-button span{
-    color: #ffffff;
+#menu-button span {
+  color: #ffffff;
 }
 #nav-menu {
-    position: absolute;
-    background-color: #1b1b2a;
-    width: 100%;
-    height: 100%;
-    padding: 30px 0;
-    text-align: center;
-    overflow-y: auto;
-    display: table;
-    z-index: 50;
-    line-height: 2;
-    margin-bottom: 30px;
+  position: absolute;
+  background-color: #1b1b2a;
+  width: 100%;
+  height: 100%;
+  padding: 30px 0;
+  text-align: center;
+  overflow-y: auto;
+  display: table;
+  z-index: 50;
+  line-height: 2;
+  margin-bottom: 30px;
 }
 
 #offcanvasNavbar-expand-md {
-    width: 100%;
+  width: 100%;
 }
-/*.offcanvas {
-    right: 0;
-    bottom: 0;
-    transition: transformY(10) .2s ease-in-out
-} */
 
 #nav-footer {
-    display: table-row;
-    vertical-align: bottom;
+  display: table-row;
+  vertical-align: bottom;
 }
 
 #nav-footer ion-icon {
-    margin: 20px 5px;
-    fill: #ffffff;
+  margin: 20px 5px;
+  fill: #ffffff;
 }
 
 #nav-footer ion-icon:hover {
-    fill: #5dafc9;;
-    background-color: #333350;
-}
-
-.link {
-    width: 100%;
-    padding: 0;
-    border-top: 1px solid #1b1b2a;
-    transition: background #1b1b2a;
-    font-size: x-large;
-    color: #ffffff;
-    background-color:#1b1b2a;
-    text-decoration: none;
-}
-
-.link li:hover {
-    background-color:#333350;
-    box-shadow: inset -2px 0  0 #5dafc9;
-    color: #ffffff;
-    text-decoration: none;
-    border: 0;
-}
-
-.active li {
-    box-shadow: inset -2px 0  0 #5dafc9;
-    background-color: #333350;
+  fill: #5dafc9;
 }
 
 .nav-link {
-    padding: 0px !important;
+  width: 100%;
+  padding: 0;
+  transition: background #1b1b2a;
+  font-size: x-large;
+  color: #ffffff;
+  background-color: #1b1b2a;
+  text-decoration: none;
+  padding: 0px;
+}
+
+.nav-link:hover {
+  background-color: #333350;
+  box-shadow: inset -2px 0 0 #5dafc9;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+  padding: 0px;
+    
+}
+.link {
+  color: #ffffff !important;
+  text-decoration: none;
+
+}
+
+.active {
+  box-shadow: inset -2px 0 0 #5dafc9;
+  background-color: #333350;
 }
 
 @media only screen and (max-width: 767px) {
-    #nav-container{
-        position:absolute;
-        height: auto;
-        background-color: #1e1e2e;
-        padding: 5px 10px;
-    }
+  #nav-container {
+    position: absolute;
+    height: auto;
+    background-color: #1e1e2e;
+    padding: 5px 10px;
+  }
 }
