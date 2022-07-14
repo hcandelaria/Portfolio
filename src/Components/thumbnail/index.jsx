@@ -1,6 +1,7 @@
 import './styles.css';
 import React from 'react';
 import { Image } from "react-bootstrap";
+import profile from './profile.jpg'; 
 
 class Thumbnail extends React.Component {
   constructor(props) {
@@ -14,7 +15,7 @@ class Thumbnail extends React.Component {
         thumbnail
         roundedCircle
         className='mx-auto d-block'
-        src="https://toppng.com/public/uploads/preview/salamence-pokemon-anime-pocketmonsters-pokemon-pokemon-salamence-11562942170psv2llmtj7.png"
+        src={profile}
       />
     );
   }
