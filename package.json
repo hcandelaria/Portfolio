@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.121.0",
+    "@aws-sdk/lib-dynamodb": "^3.127.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
@@ -17,7 +19,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "sync" : "aws s3 sync .\\build\\. s3://hcandelariapersonalportfolio --acl public-read",
+    "sync": "aws s3 sync .\\build\\. s3://hcandelariapersonalportfolio --acl public-read",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
