@@ -1,7 +1,7 @@
 import './styles.css';
 import { Col } from 'react-bootstrap';
 import React from 'react';
-import { getItem, getAllItems } from '../../libs/ddb_query'
+import { getAllItems } from '../../libs/api'
 
 import Card from '../../Components/card'
 import { Loading } from '../../Components/loading';
@@ -14,11 +14,8 @@ class Projects extends React.Component {
     }
   }
   async getProjects(){
-    const PAYLOAD = {
-      TableName: "portfolio",
-    };
-    const results = await getAllItems(PAYLOAD);
-    this.setState({projects:results.Items})
+    const data = await getAllItems();
+    this.setState({projects:data.projects})
   }
 
   componentDidMount(){
