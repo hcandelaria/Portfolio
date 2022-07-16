@@ -1,0 +1,10 @@
+.icon-link ion-icon{
+    margin: 20px 5px;
+    fill: #ffffff;
+    color: #ffffff;
+}
+  
+.icon-link ion-icon:hover {
+    fill: #5dafc9;
+    color: #5dafc9
+}
