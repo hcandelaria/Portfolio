@@ -42,15 +42,6 @@
   vertical-align: bottom;
 }
 
-#nav-footer ion-icon {
-  margin: 20px 5px;
-  fill: #ffffff;
-}
-
-#nav-footer ion-icon:hover {
-  fill: #5dafc9;
-}
-
 .nav-link {
   width: 100%;
   padding: 0;

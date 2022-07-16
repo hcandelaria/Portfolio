@@ -3,6 +3,7 @@ import React from "react";
 import { Col, Row, Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Thumbnail from "../thumbnail";
+import IconLink from "../iconLink";
 
 class NavigationMenu extends React.Component {
   constructor(props) {
@@ -66,18 +67,9 @@ class NavigationMenu extends React.Component {
                 <Container id="nav-footer" className="d-grid gap-2">
                   <Row>
                     <Col>
-                      <a href="https://github.com/hcandelaria" target="_blank">
-                        <ion-icon size="large" name="logo-github" />
-                      </a>
-                      <a href="https://twitter.com/gabriel66_7" target="_blank">
-                        <ion-icon size="large" name="logo-twitter" />
-                      </a>
-                      <a
-                        href="https://www.linkedin.com/in/hector-candelaria-986347136/"
-                        target="_blank"
-                      >
-                        <ion-icon size="large" name="logo-linkedin" />
-                      </a>
+                      <IconLink link="https://github.com/hcandelaria" icon="logo-github" />
+                      <IconLink link="https://twitter.com/gabriel66_7" icon="logo-twitter" />
+                      <IconLink link="https://www.linkedin.com/in/hector-candelaria-986347136/" icon="logo-linkedin" />
                     </Col>
                   </Row>
                 </Container>
