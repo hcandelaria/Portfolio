@@ -1,6 +1,6 @@
 import "./styles.css";
 import React from "react";
-import { Col, Row, Container, Navbar, Nav, Offcanvas } from "react-bootstrap";
+import { Col, Row, Container, Navbar, Nav } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import Thumbnail from "../thumbnail";
 import IconLink from "../iconLink";
@@ -11,9 +11,6 @@ class NavigationMenu extends React.Component {
     this.state = {
       location : window.location.pathname,
     };
-  }
-  componentDidMount() {
-    console.log(this.state.location)
   }
 
   render() {
