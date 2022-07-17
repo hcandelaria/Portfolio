@@ -1,5 +1,5 @@
 import "./styles.css";
-import { CardGroup, Col } from "react-bootstrap";
+import { CardGroup, Col, Row } from "react-bootstrap";
 import React from "react";
 import { getAllItems } from "../../libs/api";
 
@@ -10,17 +10,12 @@ class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      projectsGroups: null,
+      projects: null,
     };
   }
   async getProjects() {
     const DATA = await getAllItems();
-    const SIZE = 3;
-    let res = [];
-    for (let i = 0; i < DATA.projects.length; i += SIZE) {
-      res.push(DATA.projects.slice(i, i + SIZE));
-    }
-    this.setState({ projectsGroups: res });
+    this.setState({ projects: DATA.projects });
   }
 
   componentDidMount() {
@@ -30,22 +25,23 @@ class Projects extends React.Component {
   }
   render() {
     return (
-      <Col
-        className="d-flex align-items-center justify-content-center"
-        md={10}
-        style={{ color: "white" }}
-        id="projectsPage"
-      >
-        {this.state.projectsGroups ? (
-          this.state.projectsGroups.map((projects,index) => {
-            return (
-              <CardGroup key={index}>
-                {projects.map((project) => {
-                  return <Card key={project.id} data={project} />;
-                })}
-              </CardGroup>
-            );
-          })
+      <Col md={10} id="projects-page">
+        {this.state.projects ? (
+          <Row
+            className="overflow-auto d-flex align-items-center justify-content-center"
+            id="projects-container"
+            xs={1}
+            sm={2}
+            lg={3}
+          >
+            {this.state.projects.map((project) => {
+              return (
+                <Col key={project.id}>
+                  <Card  data={project} />
+                </Col>
+              );
+            })}
+          </Row>
         ) : (
           <Loading />
         )}

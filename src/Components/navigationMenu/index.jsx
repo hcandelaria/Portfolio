@@ -16,7 +16,7 @@ class NavigationMenu extends React.Component {
   render() {
     return (
       <Col id="nav-container">
-        <Navbar expand="md" className="mb-3" collapseOnSelect>
+        <Navbar expand="md" className="mb-3" sticky="top" collapseOnSelect>
           <Navbar.Toggle
             id="menu-button"
             aria-controls={`offcanvasNavbar-expand-md`}

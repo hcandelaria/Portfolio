@@ -1,3 +1,9 @@
-#projectsPage {
+#projects-container {
     height: 100vh;
+    color: #ffffff;
+    padding: 60px 0px;
+}
+
+#projects-container::-webkit-scrollbar {
+    overflow: hidden
 }
