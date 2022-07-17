@@ -1,6 +1,5 @@
 import "./styles.css"
 import Spinner from "react-bootstrap/Spinner";
-import { Col } from "react-bootstrap";
 
 export const Loading = () => {
   return (

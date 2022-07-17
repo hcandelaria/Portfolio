@@ -1,5 +1,5 @@
 import "./styles.css";
-import { CardGroup, Col, Row } from "react-bootstrap";
+import {  Col, Row } from "react-bootstrap";
 import React from "react";
 import { getAllItems } from "../../libs/api";
 
