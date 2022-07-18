@@ -1,5 +1,5 @@
 import "./styles.css";
-import {  Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import React from "react";
 import { getAllItems } from "../../libs/api";
 
@@ -14,8 +14,12 @@ class Projects extends React.Component {
     };
   }
   async getProjects() {
-    const DATA = await getAllItems();
-    this.setState({ projects: DATA.projects });
+    let data = await getAllItems();
+    // Sort data dec
+    data = data.projects.sort((a, b) => {
+      return a.id - b.id;
+    });
+    this.setState({ projects: data });
   }
 
   componentDidMount() {
@@ -37,7 +41,7 @@ class Projects extends React.Component {
             {this.state.projects.map((project) => {
               return (
                 <Col key={project.id}>
-                  <Card  data={project} />
+                  <Card data={project} />
                 </Col>
               );
             })}
