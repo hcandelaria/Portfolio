@@ -1,6 +1,7 @@
 import "./styles.css";
 import { Col, Container } from "react-bootstrap";
 import React from "react";
+import Thumbnail from "../../Components/thumbnail";
 
 class About extends React.Component {
   constructor(props) {
@@ -15,19 +16,20 @@ class About extends React.Component {
       <Col
         md={10}
         style={{ color: "white" }}
-        className="d-flex align-items-center justify-content-center"
-        id="aboutPage"
+        className="overflow-auto d-flex align-items-center justify-content-center"
+        id="about-page"
       >
         <Container>
-          <h1>Hello there!</h1>
+          <Thumbnail className="fade-in d-block d-md-none" />
+          <h1 className="fade-in">Hello there!</h1>
           <p className="flow-text">My name is Hector.</p>
           <p className="flow-text">
-            I am an enthusiastic Full Stack Web Developer from New Jersey.
-            Hector developed a love for computers at the early age of 12. Since
-            then, he continuously learn new technologies to pursuit his passion.
-            Attracted to Software development, Hector found a rewarding feeling
-            from developing software. Often described by him as the same feeling
-            from winning a video game level.
+            I am an enthusiastic software engineer from New Jersey. I developed
+            a love for computers since my early teens. Since then, I've
+            continuously learned new technologies to pursuit my passion and
+            consider myself a jack-of-all-trades. I find a rewarding and
+            accomplishment feeling from developing software. The very same as
+            winning a video game level.
           </p>
           <p className="flow-text">
             After completing Rutgers University Codingbootcamp, Hector accepted
@@ -36,11 +38,15 @@ class About extends React.Component {
             technologies.
           </p>
           <p className="flow-text">
-            Some of Hector's goals are to be part of a steep organization where
-            he solves current life problems. To instruct his own class where he
-            can teach and inpire developers. Create software and modules that
-            can help others developers.
+            Some of my career goals are to be part of a steep organization where
+            we solve current life problems. To instruct my own class where I can
+            teach and inspire developers. Create software and modules that can
+            help others developers.
           </p>
+          <div>
+            <br />
+              <p className="quote flow-text">" Jack of all trades, Master of None, Though Oftentimes better Than master of one."</p>
+          </div>
         </Container>
       </Col>
     );
