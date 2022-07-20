@@ -1,5 +1,5 @@
 import "./styles.css";
-import { Col, Container } from "react-bootstrap";
+import { Col,Row, Container } from "react-bootstrap";
 import React from "react";
 import Thumbnail from "../../Components/thumbnail";
 
@@ -15,39 +15,50 @@ class About extends React.Component {
     return (
       <Col
         md={10}
-        style={{ color: "white" }}
         className="overflow-auto d-flex align-items-center justify-content-center"
         id="about-page"
       >
-        <Container>
-          <Thumbnail className="fade-in d-block d-md-none" />
-          <h1 className="fade-in">Hello there!</h1>
-          <p className="flow-text">My name is Hector.</p>
-          <p className="flow-text">
-            I am an enthusiastic software engineer from New Jersey. I developed
-            a love for computers since my early teens. Since then, I've
-            continuously learned new technologies to pursuit my passion and
-            consider myself a jack-of-all-trades. I find a rewarding and
-            accomplishment feeling from developing software. The very same as
-            winning a video game level.
-          </p>
-          <p className="flow-text">
-            After completing Rutgers University Codingbootcamp, Hector accepted
-            an job offer as a Teacher Assistant in the same Program. Where
-            Hector helps and inspire young and veterans developers learn new
-            technologies.
-          </p>
-          <p className="flow-text">
-            Some of my career goals are to be part of a steep organization where
-            we solve current life problems. To instruct my own class where I can
-            teach and inspire developers. Create software and modules that can
-            help others developers.
-          </p>
-          <div>
+        <Row>
+          <Container fluid>
+            <Thumbnail className="fade-in d-block d-md-none" />
+            <h1 className="fade-in">Hello there!</h1>
+            <p className="flow-text fade-in">
+              My name is Hector. I am an enthusiastic software engineer from New
+              Jersey.
+            </p>
+            <p className="flow-text fade-in">
+              Since a very young age, I have developed a passion for technology,
+              solving complex problems and data analyzes.
+            </p>
             <br />
-              <p className="quote flow-text">" Jack of all trades, Master of None, Though Oftentimes better Than master of one."</p>
-          </div>
-        </Container>
+            <p className="flow-text fade-in">I’ve experiences within:</p>
+            <ul>
+              <li className="flow-text fade-in">
+                The Health sector as an Information System Support at Atlantic
+                Health System. Utilizing my skills for troubleshooting systems,
+                networks, automation and data entry.
+              </li>
+              <li className="flow-text fade-in">
+                The Education sector, as an Teach Assistant at Rutgers
+                university. Teaching mentoring, helping and inspiring youth and
+                veteran developers learn new technologies.
+              </li>
+            </ul>
+
+            <p className="flow-text fade-in">
+              I enjoy developing software, learning new technologies, mentoring
+              and helping others. I've continuously learned new technologies to
+              pursuit my passion and consider myself a jack-of-all-trades.
+            </p>
+            <div>
+              <br />
+              <p className="quote flow-text fade-in">
+                <span>"</span> Jack of all trades, Master of None, Though
+                Oftentimes better Than master of one.<span>"</span>
+              </p>
+            </div>
+          </Container>
+        </Row>
       </Col>
     );
   }
