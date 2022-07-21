@@ -12,7 +12,12 @@ class Projects extends React.Component {
     this.state = {
       projects: null,
     };
+    this.getProjects = this.getProjects.bind(this)
   }
+  /**
+   * Get projects  
+   * Set state.projects to list of projects
+  */
   async getProjects() {
     let data = await getAllItems();
     // Sort data dec

@@ -4,13 +4,7 @@ import React from "react";
 import Thumbnail from "../../Components/thumbnail";
 
 class About extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      test1: "test1",
-      test2: "test2",
-    };
-  }
+  
   render() {
     return (
       <Col
