@@ -40,12 +40,3 @@ p.fade-in {
     transform: scale(1);
   }
 }
-
-@media only screen and (max-width: 430px) {
-  #about-page div.container {
-    /*  */
-  }
-  p {
-    /* color: red; */
-  }
-}

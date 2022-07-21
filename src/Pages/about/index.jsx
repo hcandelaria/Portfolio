@@ -24,8 +24,9 @@ class About extends React.Component {
             <h1 className="fade-in">Hello there!</h1>
             <p className="flow-text fade-in">
               My name is Hector. I am an enthusiastic software engineer from New
-              Jersey.
+              Jersey. 
             </p>
+            <br/>
             <p className="flow-text fade-in">
               Since a very young age, I have developed a passion for technology,
               solving complex problems and data analyzes.
@@ -40,7 +41,7 @@ class About extends React.Component {
               </li>
               <li className="flow-text fade-in">
                 The Education sector, as an Teach Assistant at Rutgers
-                university. Teaching mentoring, helping and inspiring youth and
+                university. Teaching, mentoring, helping and inspiring youth and
                 veteran developers learn new technologies.
               </li>
             </ul>
@@ -53,7 +54,7 @@ class About extends React.Component {
             <div>
               <br />
               <p className="quote flow-text fade-in">
-                <span>"</span> Jack of all trades, Master of None, Though
+                <span>"</span>Jack of all trades, Master of None, Though
                 Oftentimes better Than master of one.<span>"</span>
               </p>
             </div>
