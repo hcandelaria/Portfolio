@@ -6,7 +6,7 @@ My personal portfolio repo for version control
 
 ## 🚀 About Me
 
-I am an enthusiastic software engineer. With experience in the health and educational sector.
+I am an enthusiastic software engineer with experience in the health and educational sector.
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://hcandelaria.com)
