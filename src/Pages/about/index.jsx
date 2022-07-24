@@ -34,7 +34,7 @@ class About extends React.Component {
                 networks, automation and data entry.
               </li>
               <li className="flow-text fade-in">
-                The Education sector, as an Teach Assistant at Rutgers
+                The Education sector, as an Teacher Assistant at Rutgers
                 university. Teaching, mentoring, helping and inspiring youth and
                 veteran developers learn new technologies.
               </li>
