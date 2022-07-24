@@ -16,6 +16,6 @@ I am an enthusiastic software engineer with experience in the health and educati
 
 ## Project Tech Stack
 
-**Client:** React, React-Router-Dom, react-bootstrap
+**Client:** React, JavaScript, HTML, CSS, React-Router-Dom, react-bootstrap, Axios, Boostrap
 
-**Server:** AWS S3, AWS Cloutfront, AWS Route 53
+**Server:** AWS S3, AWS Cloutfront, AWS Route 53, AWS API Gateway AWS DynamoDB, AWS IAM
