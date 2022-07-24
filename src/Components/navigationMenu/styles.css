@@ -68,7 +68,7 @@
 
 }
 
-.active {
+.active li {
   box-shadow: inset -2px 0 0 #5dafc9;
   background-color: #333350;
 }

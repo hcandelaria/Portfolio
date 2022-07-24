@@ -3,11 +3,12 @@ import React from "react";
 import { Card } from "react-bootstrap";
 import IconLink from "../iconLink";
 import Pill from "../pill";
+import CardCarousel from "../cardCarousel";
 
 const Badge = (props) => {
   return (
     <Card>
-      <Card.Img variant="top" src={props.data.img} />
+      <CardCarousel images={props.data.images} />
       <Card.Body>
         <Card.Title>{props.data.name}</Card.Title>
         <Card.Text>{props.data.description}</Card.Text>
