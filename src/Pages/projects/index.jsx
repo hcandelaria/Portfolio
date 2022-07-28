@@ -5,7 +5,7 @@ import { getAllItems } from "../../libs/api";
 
 import Card from "../../Components/card";
 import { Loading } from "../../Components/loading";
-
+import Search from "../../Components/search";
 class Projects extends React.Component {
   constructor(props) {
     super(props);
@@ -37,12 +37,13 @@ class Projects extends React.Component {
       <Col md={10} id="projects-page">
         {this.state.projects ? (
           <Row
-            className="overflow-auto d-flex align-items-center justify-content-center"
-            id="projects-container"
-            xs={1}
-            sm={2}
-            lg={3}
+          className="overflow-auto d-flex align-items-center justify-content-center"
+          id="projects-container"
+          xs={1}
+          sm={2}
+          lg={3}
           >
+            <Search/>
             {this.state.projects.map((project) => {
               return (
                 <Col key={project.id}>
