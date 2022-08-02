@@ -24,7 +24,7 @@ class NavigationMenu extends React.Component {
           <Navbar.Offcanvas
             id='offcanvasNavbar-expand-md'
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
-            placement='end'
+            placement='start'
           >
             <Nav id='nav-menu' as='ul' defaultActiveKey={this.state.location}>
               <li>
