@@ -1,12 +1,12 @@
-import './App.css';
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter, Routes, Route }  from "react-router-dom";
 import { Container, Row } from 'react-bootstrap';
-import Home from './Pages/home';
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import './App.css';
+import NavigationMenu from './Components/navigationMenu';
 import About from './Pages/about';
+import Home from './Pages/home';
 import Projects from './Pages/projects';
-import NavigationMenu from './Components/navigationMenu'
 
 function App() {
   return (

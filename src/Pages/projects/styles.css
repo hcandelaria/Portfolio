@@ -1,8 +1,8 @@
 #projects-container {
-    color: #ffffff;
-    padding: 60px 0px;
+  color: #ffffff;
+  padding: 60px 0px;
 }
 
 #projects-container::-webkit-scrollbar {
-    overflow: hidden
+  overflow: hidden;
 }

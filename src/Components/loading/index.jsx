@@ -1,11 +1,14 @@
-import "./styles.css"
-import Spinner from "react-bootstrap/Spinner";
+import Spinner from 'react-bootstrap/Spinner';
+import './styles.css';
 
 export const Loading = () => {
   return (
-    <div id="loading-component" className="d-flex align-items-center justify-content-center">
-      <Spinner animation="border" variant="info" role="status">
-        <span className="visually-hidden">Loading...</span>
+    <div
+      id='loading-component'
+      className='d-flex align-items-center justify-content-center'
+    >
+      <Spinner animation='border' variant='info' role='status'>
+        <span className='visually-hidden'>Loading...</span>
       </Spinner>
     </div>
   );

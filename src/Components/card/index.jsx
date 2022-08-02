@@ -1,9 +1,9 @@
-import "./styles.css";
-import React from "react";
-import { Card } from "react-bootstrap";
-import IconLink from "../iconLink";
-import Pill from "../pill";
-import CardCarousel from "../cardCarousel";
+import React from 'react';
+import { Card } from 'react-bootstrap';
+import CardCarousel from '../cardCarousel';
+import IconLink from '../iconLink';
+import Pill from '../pill';
+import './styles.css';
 
 const Badge = (props) => {
   return (
@@ -17,14 +17,16 @@ const Badge = (props) => {
             return <Pill key={index} tech={tech} />;
           })}
         </div>
-        { props.data.links[0] ?
-          <IconLink icon="logo-github" link={props.data.links[0]} /> :
-          <IconLink icon="logo-github" className="disabled"/>
-        }
-        { props.data.links[1] ?
-          <IconLink icon="globe-outline" link={props.data.links[1]} /> :
-          <IconLink icon="globe-outline" className="disabled"/>
-        }
+        {props.data.links[0] ? (
+          <IconLink icon='logo-github' link={props.data.links[0]} />
+        ) : (
+          <IconLink icon='logo-github' className='disabled' />
+        )}
+        {props.data.links[1] ? (
+          <IconLink icon='globe-outline' link={props.data.links[1]} />
+        ) : (
+          <IconLink icon='globe-outline' className='disabled' />
+        )}
       </Card.Body>
     </Card>
   );

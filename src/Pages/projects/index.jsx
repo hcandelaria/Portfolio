@@ -1,10 +1,10 @@
-import "./styles.css";
-import { Col, Row } from "react-bootstrap";
-import React from "react";
-import { getAllItems } from "../../libs/api";
+import React from 'react';
+import { Col, Row } from 'react-bootstrap';
+import { getAllItems } from '../../libs/api';
+import './styles.css';
 
-import Card from "../../Components/card";
-import { Loading } from "../../Components/loading";
+import Card from '../../Components/card';
+import { Loading } from '../../Components/loading';
 
 class Projects extends React.Component {
   constructor(props) {
@@ -12,12 +12,12 @@ class Projects extends React.Component {
     this.state = {
       projects: null,
     };
-    this.getProjects = this.getProjects.bind(this)
+    this.getProjects = this.getProjects.bind(this);
   }
   /**
-   * Get projects  
+   * Get projects
    * Set state.projects to list of projects
-  */
+   */
   async getProjects() {
     let data = await getAllItems();
     // Sort data dec
@@ -34,11 +34,11 @@ class Projects extends React.Component {
   }
   render() {
     return (
-      <Col md={10} id="projects-page">
+      <Col md={10} id='projects-page'>
         {this.state.projects ? (
           <Row
-            className="overflow-auto d-flex align-items-center justify-content-center"
-            id="projects-container"
+            className='overflow-auto d-flex align-items-center justify-content-center'
+            id='projects-container'
             xs={1}
             sm={2}
             lg={3}
