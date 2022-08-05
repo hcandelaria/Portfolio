@@ -22,7 +22,7 @@ class Projects extends React.Component {
     let data = await getAllItems();
     // Sort data dec
     data = data.projects.sort((a, b) => {
-      return a.id - b.id;
+      return b.id - a.id;
     });
     this.setState({ projects: data });
   }
