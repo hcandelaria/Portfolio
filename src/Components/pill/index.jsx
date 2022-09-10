@@ -3,7 +3,7 @@ import './styles.css';
 
 const Pill = (props) => {
   return (
-    <Badge className='pill' pill bg='info'>
+    <Badge className='pill' pill bg={props.bg}>
       {props.tech}
     </Badge>
   );
