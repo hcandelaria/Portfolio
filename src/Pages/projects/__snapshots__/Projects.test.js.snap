@@ -1,0 +1,589 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Projects page should render correctly 1`] = `
+<div
+  className="col-md-10"
+  data-testid="projects-page"
+  id="projects-page"
+>
+  <div
+    className="overflow-auto d-flex align-items-center justify-content-center row row-cols-lg-3 row-cols-sm-2 row-cols-1"
+    id="projects-container"
+  >
+    <div
+      className="col"
+    >
+      <div
+        className="card"
+        role="card"
+      >
+        <div
+          className="carousel slide carousel-dark"
+          onKeyDown={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="carousel-indicators"
+          >
+            <button
+              aria-current={true}
+              aria-label="Slide 1"
+              className="active"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 2"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 3"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 4"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 5"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+          </div>
+          <div
+            className="carousel-inner"
+          >
+            <div
+              className="active carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 0"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization1.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 1"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization2.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 2"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization3.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 3"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization4.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 4"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization5.png"
+              />
+            </div>
+          </div>
+          <a
+            className="carousel-control-prev"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-prev-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Previous
+            </span>
+          </a>
+          <a
+            className="carousel-control-next"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-next-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Next
+            </span>
+          </a>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title h5"
+          >
+            Data Visualization
+          </div>
+          <p
+            className="card-text"
+          >
+            Data Visuaization for my data analysis.
+          </p>
+          <div>
+            Frontend:
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              React
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              HTML5
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              CSS3
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              TypeScript
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Ionic
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Rechart
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Nivo
+            </span>
+          </div>
+          <div>
+            Backend:
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              REST API
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              Node
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              Axios
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              React-Router
+            </span>
+          </div>
+          <div>
+            Services:
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS S3
+            </span>
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS Amplify
+            </span>
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS Route53
+            </span>
+          </div>
+          <div>
+            Analisys:
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Python
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Pandas
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              NumPY
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Matplotlib
+            </span>
+          </div>
+          <a
+            className="icon-link"
+            href="https://github.com/hcandelaria/dataVisualization"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ion-icon
+              name="logo-github"
+              size="large"
+            />
+          </a>
+          <a
+            className="icon-link"
+            href="https://data.hcandelaria.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ion-icon
+              name="globe-outline"
+              size="large"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      className="col"
+    >
+      <div
+        className="card"
+        role="card"
+      >
+        <div
+          className="carousel slide carousel-dark"
+          onKeyDown={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="carousel-indicators"
+          >
+            <button
+              aria-current={true}
+              aria-label="Slide 1"
+              className="active"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 2"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 3"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 4"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 5"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+          </div>
+          <div
+            className="carousel-inner"
+          >
+            <div
+              className="active carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 0"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization1.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 1"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization2.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 2"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization3.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 3"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization4.png"
+              />
+            </div>
+            <div
+              className="carousel-item"
+              interval={5000}
+            >
+              <img
+                alt="image 4"
+                className="card-img-top d-block"
+                src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization5.png"
+              />
+            </div>
+          </div>
+          <a
+            className="carousel-control-prev"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-prev-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Previous
+            </span>
+          </a>
+          <a
+            className="carousel-control-next"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-next-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Next
+            </span>
+          </a>
+        </div>
+        <div
+          className="card-body"
+        >
+          <div
+            className="card-title h5"
+          >
+            Data Visualization
+          </div>
+          <p
+            className="card-text"
+          >
+            Data Visuaization for my data analysis.
+          </p>
+          <div>
+            Frontend:
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              React
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              HTML5
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              CSS3
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              TypeScript
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Ionic
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Rechart
+            </span>
+            <span
+              className="pill badge rounded-pill bg-info"
+            >
+              Nivo
+            </span>
+          </div>
+          <div>
+            Backend:
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              REST API
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              Node
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              Axios
+            </span>
+            <span
+              className="pill badge rounded-pill bg-warning"
+            >
+              React-Router
+            </span>
+          </div>
+          <div>
+            Services:
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS S3
+            </span>
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS Amplify
+            </span>
+            <span
+              className="pill badge rounded-pill bg-primary"
+            >
+              AWS Route53
+            </span>
+          </div>
+          <div>
+            Analisys:
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Python
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Pandas
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              NumPY
+            </span>
+            <span
+              className="pill badge rounded-pill bg-danger"
+            >
+              Matplotlib
+            </span>
+          </div>
+          <a
+            className="icon-link"
+            href="https://github.com/hcandelaria/dataVisualization"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ion-icon
+              name="logo-github"
+              size="large"
+            />
+          </a>
+          <a
+            className="icon-link"
+            href="https://data.hcandelaria.com"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <ion-icon
+              name="globe-outline"
+              size="large"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

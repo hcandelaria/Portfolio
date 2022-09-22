@@ -10,6 +10,7 @@ class About extends React.Component {
         md={10}
         className='overflow-auto d-flex align-items-center justify-content-center'
         id='about-page'
+        data-testid='about-page'
       >
         <Row>
           <Container fluid>

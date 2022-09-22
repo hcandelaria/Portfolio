@@ -1,7 +1,7 @@
 import Spinner from 'react-bootstrap/Spinner';
 import './styles.css';
 
-export const Loading = () => {
+const Loading = () => {
   return (
     <div
       id='loading-component'
@@ -13,3 +13,4 @@ export const Loading = () => {
     </div>
   );
 };
+export default Loading;

@@ -9,13 +9,13 @@ class NavigationMenu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      location: window.location.pathname,
+      location: window.location.pathname || '/',
     };
   }
 
   render() {
     return (
-      <Col id='nav-container'>
+      <Col id='nav-container' data-testid='nav-container'>
         <Navbar expand='md' className='mb-3' sticky='top' collapseOnSelect>
           <Navbar.Toggle
             id='menu-button'
@@ -26,7 +26,12 @@ class NavigationMenu extends React.Component {
             aria-labelledby={`offcanvasNavbarLabel-expand-md`}
             placement='start'
           >
-            <Nav id='nav-menu' as='ul' defaultActiveKey={this.state.location}>
+            <Nav
+              id='nav-menu'
+              data-testid='nav-menu'
+              as='ul'
+              defaultActiveKey={this.state.location}
+            >
               <li>
                 <Thumbnail />
               </li>
@@ -61,7 +66,11 @@ class NavigationMenu extends React.Component {
                 </Nav.Link>
               </NavLink>
               <li>
-                <Container id='nav-footer' className='d-grid gap-2'>
+                <Container
+                  id='nav-footer'
+                  data-testid='nav-footer'
+                  className='d-grid gap-2'
+                >
                   <Row>
                     <Col>
                       <IconLink

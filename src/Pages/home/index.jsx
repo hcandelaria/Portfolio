@@ -9,8 +9,11 @@ class Home extends React.Component {
         md={10}
         className='d-flex align-items-center justify-content-center'
         id='homePage'
+        data-testid='homePage'
       >
-        <div id='welcome'>Welcome</div>
+        <div id='welcome' data-testid='welcome'>
+          Welcome
+        </div>
       </Col>
     );
   }

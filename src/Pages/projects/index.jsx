@@ -4,13 +4,13 @@ import { getAllItems } from '../../libs/api';
 import './styles.css';
 
 import Card from '../../Components/card';
-import { Loading } from '../../Components/loading';
+import Loading from '../../Components/loading';
 
 class Projects extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      projects: null,
+      projects: props.projects || null,
     };
     this.getProjects = this.getProjects.bind(this);
   }
@@ -34,7 +34,7 @@ class Projects extends React.Component {
   }
   render() {
     return (
-      <Col md={10} id='projects-page'>
+      <Col md={10} id='projects-page' data-testid='projects-page'>
         {this.state.projects ? (
           <Row
             className='overflow-auto d-flex align-items-center justify-content-center'

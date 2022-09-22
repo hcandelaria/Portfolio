@@ -7,7 +7,7 @@ import './styles.css';
 
 const Badge = (props) => {
   return (
-    <Card>
+    <Card role='card'>
       <CardCarousel images={props.data.images} />
       <Card.Body>
         <Card.Title>{props.data.name}</Card.Title>
