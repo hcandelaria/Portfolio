@@ -559,6 +559,19 @@ exports[`Projects page should render correctly 1`] = `
               Matplotlib
             </span>
           </div>
+          <div>
+            Test:
+            <span
+              className="pill badge rounded-pill bg-success"
+            >
+              Jest
+            </span>
+            <span
+              className="pill badge rounded-pill bg-success"
+            >
+              Enzyme
+            </span>
+          </div>
           <a
             className="icon-link"
             href="https://github.com/hcandelaria/dataVisualization"

@@ -17,6 +17,7 @@ describe('Card component', () => {
         "https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization5.png"],
       services: ['AWS S3', 'AWS Amplify', 'AWS Route53'],
       links: ['https://github.com/hcandelaria/dataVisualization', 'https://data.hcandelaria.com'],
+      test: ['Jest', 'Enzyme'],
     }
 
     render(<Card data={data} />)

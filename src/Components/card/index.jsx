@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card } from 'react-bootstrap';
 import CardCarousel from '../cardCarousel';
 import IconLink from '../iconLink';
@@ -6,26 +6,34 @@ import Pill from '../pill';
 import './styles.css';
 
 const Badge = (props) => {
+  const {
+    frontend = [],
+    backend = [],
+    services = [],
+    analisys = [],
+    test = [],
+  } = props.data;
+
   return (
     <Card role='card'>
       <CardCarousel images={props.data.images} />
       <Card.Body>
         <Card.Title>{props.data.name}</Card.Title>
         <Card.Text>{props.data.description}</Card.Text>
-        {props.data.frontend.length > 0 ? (
+        {frontend.length > 0 ? (
           <div>
             Frontend:
-            {props.data.frontend.map((tech, index) => {
+            {frontend.map((tech, index) => {
               return <Pill key={index} tech={tech} bg='info' />;
             })}
           </div>
         ) : (
           <></>
         )}
-        {props.data.backend.length > 0 ? (
+        {backend.length > 0 ? (
           <div>
             Backend:
-            {props.data.backend.map((tech, index) => {
+            {backend.map((tech, index) => {
               return <Pill key={index} tech={tech} bg='warning' />;
             })}
           </div>
@@ -33,10 +41,10 @@ const Badge = (props) => {
           <></>
         )}
 
-        {props.data.services.length > 0 ? (
+        {services.length > 0 ? (
           <div>
             Services:
-            {props.data.services.map((tech, index) => {
+            {services.map((tech, index) => {
               return <Pill key={index} tech={tech} bg='primary' />;
             })}
           </div>
@@ -44,11 +52,21 @@ const Badge = (props) => {
           <></>
         )}
 
-        {props.data.analisys.length > 0 ? (
+        {analisys.length > 0 ? (
           <div>
             Analisys:
-            {props.data.analisys.map((tech, index) => {
+            {analisys.map((tech, index) => {
               return <Pill key={index} tech={tech} bg='danger' />;
+            })}
+          </div>
+        ) : (
+          <></>
+        )}
+        {test.length > 0 ? (
+          <div>
+            Test:
+            {test.map((tech, index) => {
+              return <Pill key={index} tech={tech} bg='success' />;
             })}
           </div>
         ) : (
