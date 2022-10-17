@@ -33,9 +33,11 @@ class About extends React.Component {
         initial='hidden'
         animate='visible'
       >
+        {/* Profile image */}
         <motion.div className='px-20 mt-10 sm:hidden' variants={paragraph}>
           <Thumbnail className='mx-20' />
         </motion.div>
+        {/* Paragraph 1 */}
         <motion.div variants={paragraph}>
           <h1>Hello there!</h1>
           <p className='flow-text'>
@@ -43,14 +45,16 @@ class About extends React.Component {
             Jersey.
           </p>
         </motion.div>
+        {/* Paragraph 2 */}
         <motion.div variants={paragraph}>
           <p className='flow-text'>
             Since a very young age, I have developed a passion for technology,
             solving complex problems and data analyzes.
           </p>
         </motion.div>
+        {/* Paragraph 3 */}
         <motion.div variants={paragraph}>
-          <p className='flow-text'>I’ve experiences within:</p>
+          <p className='flow-text'>I’ve experience within:</p>
           <ul className='px-4'>
             <li className='flow-text'>
               The Health sector as an Information System Support at Atlantic
@@ -64,6 +68,7 @@ class About extends React.Component {
             </li>
           </ul>
         </motion.div>
+        {/* Paragraph 4 */}
         <motion.div variants={paragraph}>
           <p className='flow-text'>
             I enjoy developing software, learning new technologies, mentoring
@@ -71,12 +76,14 @@ class About extends React.Component {
             pursuit my passion and consider myself a jack-of-all-trades.
           </p>
         </motion.div>
+        {/* Paragraph 5 */}
         <motion.div variants={paragraph}>
           <p className='flow-text'>
             Since a very young age, I have developed a passion for technology,
             solving complex problems and data analyzes.
           </p>
         </motion.div>
+        {/* Paragraph 6*/}
         <motion.div variants={paragraph}>
           <p>
             <span>"</span>Jack of all trades, Master of None, Though Oftentimes

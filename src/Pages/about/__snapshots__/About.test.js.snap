@@ -69,7 +69,7 @@ exports[`About page should render correctly 1`] = `
     <p
       className="flow-text"
     >
-      I’ve experiences within:
+      I’ve experience within:
     </p>
     <ul
       className="px-4"
