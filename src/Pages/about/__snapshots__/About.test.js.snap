@@ -1,75 +1,136 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`About page should render correctly 1`] = `
-<div
-  className="overflow-auto d-flex align-items-center justify-content-center col-md-10"
+<section
+  className="min-h-screen text-white p-2 items-center justify-center sm:space-y-6 sm:ml-40"
   data-testid="about-page"
   id="about-page"
+  style={
+    Object {
+      "opacity": 0,
+      "transform": "scale(0) translateZ(0)",
+    }
+  }
 >
   <div
-    className="row"
+    className="px-20 mt-10 sm:hidden"
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
   >
-    <div
-      className="container-fluid"
-    >
-      <img
-        className="fade-in d-block d-md-none mx-auto d-block profile-image rounded-circle img-thumbnail"
-        src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/portofolio/profile.jpg"
-      />
-      <h1
-        className="fade-in"
-      >
-        Hello there!
-      </h1>
-      <p
-        className="flow-text fade-in"
-      >
-        My name is Hector. I am an enthusiastic software engineer from New Jersey.
-      </p>
-      <br />
-      <p
-        className="flow-text fade-in"
-      >
-        Since a very young age, I have developed a passion for technology, solving complex problems and data analyzes.
-      </p>
-      <br />
-      <p
-        className="flow-text fade-in"
-      >
-        I’ve experiences within:
-      </p>
-      <ul>
-        <li
-          className="flow-text fade-in"
-        >
-          The Health sector as an Information System Support at Atlantic Health System. Utilizing my skills for troubleshooting systems, networks, automation and data entry.
-        </li>
-        <li
-          className="flow-text fade-in"
-        >
-          The Education sector, as an Teacher Assistant at Rutgers university. Teaching, mentoring, helping and inspiring youth and veteran developers learn new technologies.
-        </li>
-      </ul>
-      <p
-        className="flow-text fade-in"
-      >
-        I enjoy developing software, learning new technologies, mentoring and helping others. I've continuously learned new technologies to pursuit my passion and consider myself a jack-of-all-trades.
-      </p>
-      <div>
-        <br />
-        <p
-          className="quote flow-text fade-in"
-        >
-          <span>
-            "
-          </span>
-          Jack of all trades, Master of None, Though Oftentimes better Than master of one.
-          <span>
-            "
-          </span>
-        </p>
-      </div>
-    </div>
+    <img
+      alt="portfolio pic"
+      className="rounded-full m-2 border-solid border-4 border-sky-500"
+      src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/portofolio/profile.jpg"
+    />
   </div>
-</div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <h1>
+      Hello there!
+    </h1>
+    <p
+      className="flow-text"
+    >
+      My name is Hector. I am an enthusiastic software engineer from New Jersey.
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <p
+      className="flow-text"
+    >
+      Since a very young age, I have developed a passion for technology, solving complex problems and data analyzes.
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <p
+      className="flow-text"
+    >
+      I’ve experiences within:
+    </p>
+    <ul
+      className="px-4"
+    >
+      <li
+        className="flow-text"
+      >
+        The Health sector as an Information System Support at Atlantic Health System. Utilizing my skills for troubleshooting systems, networks, automation and data entry.
+      </li>
+      <li
+        className="flow-text"
+      >
+        The Education sector, as an Teacher Assistant at Rutgers university. Teaching, mentoring, helping and inspiring youth and veteran developers learn new technologies.
+      </li>
+    </ul>
+  </div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <p
+      className="flow-text"
+    >
+      I enjoy developing software, learning new technologies, mentoring and helping others. I've continuously learned new technologies to pursuit my passion and consider myself a jack-of-all-trades.
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <p
+      className="flow-text"
+    >
+      Since a very young age, I have developed a passion for technology, solving complex problems and data analyzes.
+    </p>
+  </div>
+  <div
+    style={
+      Object {
+        "opacity": 0,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
+  >
+    <p>
+      <span>
+        "
+      </span>
+      Jack of all trades, Master of None, Though Oftentimes better Than master of one.
+      <span>
+        "
+      </span>
+    </p>
+  </div>
+</section>
 `;

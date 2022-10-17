@@ -1,10 +1,20 @@
+import { motion } from 'framer-motion';
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
-import { getAllItems } from '../../libs/api';
-import './styles.css';
-
-import Card from '../../Components/card';
 import Loading from '../../Components/loading';
+import Note from '../../Components/note';
+import { getAllItems } from '../../libs/api';
+
+const section = {
+  hidden: { opacity: 1, scale: 0 },
+  visible: {
+    opacity: 1,
+    scale: 1,
+    transition: {
+      delayChildren: 0.3,
+      staggerChildren: 0.2,
+    },
+  },
+};
 
 class Projects extends React.Component {
   constructor(props) {
@@ -34,27 +44,29 @@ class Projects extends React.Component {
   }
   render() {
     return (
-      <Col md={10} id='projects-page' data-testid='projects-page'>
+      <motion.section
+        id='projects-page'
+        data-testid='projects-page'
+        className='min-h-screen items-center justify-center py-4 sm:ml-40'
+      >
         {this.state.projects ? (
-          <Row
-            className='overflow-auto d-flex align-items-center justify-content-center'
+          <motion.ul
+            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
             id='projects-container'
-            xs={1}
-            sm={2}
-            lg={3}
+            variants={section}
+            initial='hidden'
+            animate='visible'
           >
             {this.state.projects.map((project) => {
               return (
-                <Col key={project.id}>
-                  <Card data={project} />
-                </Col>
+                <Note className='shadow-lg' key={project.id} data={project} />
               );
             })}
-          </Row>
+          </motion.ul>
         ) : (
           <Loading />
         )}
-      </Col>
+      </motion.section>
     );
   }
 }

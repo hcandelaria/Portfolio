@@ -1,15 +1,16 @@
-import Spinner from 'react-bootstrap/Spinner';
-import './styles.css';
-
 const Loading = () => {
   return (
     <div
       id='loading-component'
-      className='d-flex align-items-center justify-content-center'
+      className='flex items-center justify-center space-x-2'
+      role='status'
     >
-      <Spinner animation='border' variant='info' role='status'>
-        <span className='visually-hidden'>Loading...</span>
-      </Spinner>
+      <div className='grid min-h-screen place-content-center'>
+        <div className='flex items-center gap-2 text-gray-500'>
+          <span className='h-6 w-6 block rounded-full border-4 border-t-sky-500 animate-spin'></span>
+          loading...
+        </div>
+      </div>
     </div>
   );
 };

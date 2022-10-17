@@ -51,7 +51,7 @@ describe('Projects page', () => {
 
   it('should render 2 project', () => {
     render(<Projects projects={projects} />)
-    const cards = screen.getAllByRole("card")
+    const cards = screen.getAllByRole("note")
     expect(cards.length).toEqual(2)
   })
 

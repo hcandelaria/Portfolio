@@ -36,7 +36,7 @@ describe('NavigationMenu component', () => {
     await user.click(screen.getByRole('button'))
 
     const navigationLinkList = screen.getAllByRole('link')
-    expect(navigationLinkList.length).toBe(7)
+    expect(navigationLinkList.length).toBe(14)
   });
 
   it('should mount footer', async () => {

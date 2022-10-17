@@ -1,11 +1,10 @@
-import Badge from 'react-bootstrap/Badge';
-import './styles.css';
-
 const Pill = (props) => {
   return (
-    <Badge className='pill' pill bg={props.bg}>
+    <div
+      className={`px-1 m-1 inline-block shadow-md no-underline rounded-full bg-${props.bg} text-white border-${props.bg} btn-primary text-md sm:text-sm`}
+    >
       {props.tech}
-    </Badge>
+    </div>
   );
 };
 

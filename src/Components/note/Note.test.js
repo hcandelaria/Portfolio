@@ -1,5 +1,5 @@
 import { render, screen } from '@testing-library/react';
-import Card from '.';
+import Note from '.';
 
 describe('Card component', () => {
   it('should mount', () => {
@@ -20,8 +20,8 @@ describe('Card component', () => {
       test: ['Jest', 'Enzyme'],
     }
 
-    render(<Card data={data} />)
-    const cardEl = screen.getByRole('card')
-    expect(cardEl).toBeInTheDocument()
+    render(<Note data={data} />)
+    const noteEl = screen.getByRole('note')
+    expect(noteEl).toBeInTheDocument()
   })
 })

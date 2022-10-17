@@ -1,276 +1,262 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Projects page should render correctly 1`] = `
-<div
-  className="col-md-10"
+<section
+  className="min-h-screen items-center justify-center py-4 sm:ml-40"
   data-testid="projects-page"
   id="projects-page"
+  style={Object {}}
 >
-  <div
-    className="overflow-auto d-flex align-items-center justify-content-center row row-cols-lg-3 row-cols-sm-2 row-cols-1"
+  <ul
+    className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
     id="projects-container"
+    style={
+      Object {
+        "opacity": 1,
+        "transform": "scale(0) translateZ(0)",
+      }
+    }
   >
     <div
-      className="col"
+      className="bg-black-russian-700 flex justify-center mx-4 mt-5"
+      role="note"
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateY(100px) translateZ(0)",
+        }
+      }
     >
       <div
-        className="card"
-        role="card"
+        className="rounded-lg max-w-sm"
       >
         <div
-          className="carousel slide carousel-dark"
-          onKeyDown={[Function]}
-          onMouseOut={[Function]}
-          onMouseOver={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
+          className="carousel slide relative p-2"
+          data-bs-ride="carousel"
+          id="imageCarousel"
         >
           <div
-            className="carousel-indicators"
-          >
-            <button
-              aria-current={true}
-              aria-label="Slide 1"
-              className="active"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 2"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 3"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 4"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 5"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-          </div>
-          <div
-            className="carousel-inner"
+            className="carousel-inner relative w-full flex overflow-hidden"
           >
             <div
-              className="active carousel-item"
-              interval={5000}
+              className="carousel-item active min-w-full"
+              style={
+                Object {
+                  "opacity": 0,
+                  "transform": "translateX(300px) translateZ(0)",
+                }
+              }
             >
               <img
-                alt="image 0"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization1.png"
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 1"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization2.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 2"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization3.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 3"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization4.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 4"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization5.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
             </div>
           </div>
-          <a
-            className="carousel-control-prev"
-            href="#"
+          <button
+            className="flex absolute top-0 left-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-prev={true}
             onClick={[Function]}
-            onKeyDown={[Function]}
-            role="button"
-            tabIndex={0}
+            type="button"
           >
             <span
-              aria-hidden="true"
-              className="carousel-control-prev-icon"
-            />
-            <span
-              className="visually-hidden"
+              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
             >
-              Previous
+              <ion-icon
+                name="arrow-back-outline"
+                size="large"
+              />
+              <span
+                className="hidden"
+              >
+                Previous
+              </span>
             </span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#"
+          </button>
+          <button
+            className="flex absolute top-0 right-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-next={true}
             onClick={[Function]}
-            onKeyDown={[Function]}
-            role="button"
-            tabIndex={0}
+            type="button"
           >
             <span
-              aria-hidden="true"
-              className="carousel-control-next-icon"
-            />
-            <span
-              className="visually-hidden"
+              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
             >
-              Next
+              <ion-icon
+                name="arrow-forward-outline"
+                size="large"
+              />
+              <span
+                className="hidden"
+              >
+                Next
+              </span>
             </span>
-          </a>
+          </button>
         </div>
         <div
-          className="card-body"
+          className="p-6"
         >
-          <div
-            className="card-title h5"
+          <h5
+            className="text-gray-400 text-xl font-medium mb-2"
           >
             Data Visualization
-          </div>
+          </h5>
           <p
-            className="card-text"
+            className="text-gray-300 text-base mb-4"
           >
             Data Visuaization for my data analysis.
           </p>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Frontend:
-            <span
-              className="pill badge rounded-pill bg-info"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               React
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               HTML5
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               CSS3
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               TypeScript
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Ionic
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Rechart
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Nivo
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Backend:
-            <span
-              className="pill badge rounded-pill bg-warning"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               REST API
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               Node
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               Axios
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               React-Router
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Services:
-            <span
-              className="pill badge rounded-pill bg-primary"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS S3
-            </span>
-            <span
-              className="pill badge rounded-pill bg-primary"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS Amplify
-            </span>
-            <span
-              className="pill badge rounded-pill bg-primary"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS Route53
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Analisys:
-            <span
-              className="pill badge rounded-pill bg-danger"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Python
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Pandas
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               NumPY
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Matplotlib
-            </span>
+            </div>
           </div>
           <a
             className="icon-link"
@@ -298,279 +284,260 @@ exports[`Projects page should render correctly 1`] = `
       </div>
     </div>
     <div
-      className="col"
+      className="bg-black-russian-700 flex justify-center mx-4 mt-5"
+      role="note"
+      style={
+        Object {
+          "opacity": 0,
+          "transform": "translateY(100px) translateZ(0)",
+        }
+      }
     >
       <div
-        className="card"
-        role="card"
+        className="rounded-lg max-w-sm"
       >
         <div
-          className="carousel slide carousel-dark"
-          onKeyDown={[Function]}
-          onMouseOut={[Function]}
-          onMouseOver={[Function]}
-          onTouchEnd={[Function]}
-          onTouchMove={[Function]}
-          onTouchStart={[Function]}
+          className="carousel slide relative p-2"
+          data-bs-ride="carousel"
+          id="imageCarousel"
         >
           <div
-            className="carousel-indicators"
-          >
-            <button
-              aria-current={true}
-              aria-label="Slide 1"
-              className="active"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 2"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 3"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 4"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-            <button
-              aria-current={false}
-              aria-label="Slide 5"
-              data-bs-target=""
-              onClick={[Function]}
-              type="button"
-            />
-          </div>
-          <div
-            className="carousel-inner"
+            className="carousel-inner relative w-full flex overflow-hidden"
           >
             <div
-              className="active carousel-item"
-              interval={5000}
+              className="carousel-item active min-w-full"
+              style={
+                Object {
+                  "opacity": 0,
+                  "transform": "translateX(300px) translateZ(0)",
+                }
+              }
             >
               <img
-                alt="image 0"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization1.png"
+                style={
+                  Object {
+                    "display": "block",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 1"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization2.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 2"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization3.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 3"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization4.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
-            </div>
-            <div
-              className="carousel-item"
-              interval={5000}
-            >
               <img
-                alt="image 4"
-                className="card-img-top d-block"
+                alt="project 0"
                 src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/dataVisualization/dataVisualization5.png"
+                style={
+                  Object {
+                    "display": "none",
+                  }
+                }
               />
             </div>
           </div>
-          <a
-            className="carousel-control-prev"
-            href="#"
+          <button
+            className="flex absolute top-0 left-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-prev={true}
             onClick={[Function]}
-            onKeyDown={[Function]}
-            role="button"
-            tabIndex={0}
+            type="button"
           >
             <span
-              aria-hidden="true"
-              className="carousel-control-prev-icon"
-            />
-            <span
-              className="visually-hidden"
+              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
             >
-              Previous
+              <ion-icon
+                name="arrow-back-outline"
+                size="large"
+              />
+              <span
+                className="hidden"
+              >
+                Previous
+              </span>
             </span>
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#"
+          </button>
+          <button
+            className="flex absolute top-0 right-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            data-carousel-next={true}
             onClick={[Function]}
-            onKeyDown={[Function]}
-            role="button"
-            tabIndex={0}
+            type="button"
           >
             <span
-              aria-hidden="true"
-              className="carousel-control-next-icon"
-            />
-            <span
-              className="visually-hidden"
+              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
             >
-              Next
+              <ion-icon
+                name="arrow-forward-outline"
+                size="large"
+              />
+              <span
+                className="hidden"
+              >
+                Next
+              </span>
             </span>
-          </a>
+          </button>
         </div>
         <div
-          className="card-body"
+          className="p-6"
         >
-          <div
-            className="card-title h5"
+          <h5
+            className="text-gray-400 text-xl font-medium mb-2"
           >
             Data Visualization
-          </div>
+          </h5>
           <p
-            className="card-text"
+            className="text-gray-300 text-base mb-4"
           >
             Data Visuaization for my data analysis.
           </p>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Frontend:
-            <span
-              className="pill badge rounded-pill bg-info"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               React
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               HTML5
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               CSS3
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               TypeScript
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Ionic
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Rechart
-            </span>
-            <span
-              className="pill badge rounded-pill bg-info"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-info text-white border-info btn-primary text-md sm:text-sm"
             >
               Nivo
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Backend:
-            <span
-              className="pill badge rounded-pill bg-warning"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               REST API
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               Node
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               Axios
-            </span>
-            <span
-              className="pill badge rounded-pill bg-warning"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-warning text-white border-warning btn-primary text-md sm:text-sm"
             >
               React-Router
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Services:
-            <span
-              className="pill badge rounded-pill bg-primary"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS S3
-            </span>
-            <span
-              className="pill badge rounded-pill bg-primary"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS Amplify
-            </span>
-            <span
-              className="pill badge rounded-pill bg-primary"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-primary text-white border-primary btn-primary text-md sm:text-sm"
             >
               AWS Route53
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Analisys:
-            <span
-              className="pill badge rounded-pill bg-danger"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Python
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Pandas
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               NumPY
-            </span>
-            <span
-              className="pill badge rounded-pill bg-danger"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-danger text-white border-danger btn-primary text-md sm:text-sm"
             >
               Matplotlib
-            </span>
+            </div>
           </div>
-          <div>
+          <div
+            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+          >
             Test:
-            <span
-              className="pill badge rounded-pill bg-success"
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-success text-white border-success btn-primary text-md sm:text-sm"
             >
               Jest
-            </span>
-            <span
-              className="pill badge rounded-pill bg-success"
+            </div>
+            <div
+              className="px-1 m-1 inline-block shadow-md no-underline rounded-full bg-success text-white border-success btn-primary text-md sm:text-sm"
             >
               Enzyme
-            </span>
+            </div>
           </div>
           <a
             className="icon-link"
@@ -597,6 +564,6 @@ exports[`Projects page should render correctly 1`] = `
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </ul>
+</section>
 `;
