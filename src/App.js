@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
-import NavigationMenu from './Components/navigationMenu';
 import About from './Pages/about';
 import Home from './Pages/home';
+import NavigationMenu from './Pages/navigationMenu';
 import Projects from './Pages/projects';
 
 function App() {

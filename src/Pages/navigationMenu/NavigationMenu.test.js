@@ -23,9 +23,9 @@ describe('NavigationMenu component', () => {
 
   })
 
-  test('should mount navigation', () => {
+  it('should mount navigation', () => {
     render(<NavigationMenu />, { wrapper: BrowserRouter });
-    const navigationComponent = screen.getByTestId('nav-container')
+    const navigationComponent = screen.getByTestId('desktop-nav-container')
     expect(navigationComponent).toBeInTheDocument()
   });
 
@@ -34,19 +34,10 @@ describe('NavigationMenu component', () => {
     const user = userEvent.setup()
 
     await user.click(screen.getByRole('button'))
-
+    // includes desktop mobile and footer links
     const navigationLinkList = screen.getAllByRole('link')
     expect(navigationLinkList.length).toBe(14)
   });
 
-  it('should mount footer', async () => {
-    render(<NavigationMenu />, { wrapper: BrowserRouter });
-    const user = userEvent.setup()
-
-    await user.click(screen.getByRole('button'))
-
-    const navigationFooterComponent = screen.getByTestId('nav-footer')
-    expect(navigationFooterComponent).toBeInTheDocument()
-  });
 
 });
