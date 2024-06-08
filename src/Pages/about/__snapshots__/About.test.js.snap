@@ -2,7 +2,7 @@
 
 exports[`About page should render correctly 1`] = `
 <section
-  className="min-h-screen text-white p-2 items-center justify-center sm:space-y-6 sm:ml-40"
+  className="min-h-screen items-center justify-center p-2 text-white sm:ml-40 sm:space-y-6"
   data-testid="about-page"
   id="about-page"
   style={
@@ -13,7 +13,7 @@ exports[`About page should render correctly 1`] = `
   }
 >
   <div
-    className="px-20 mt-10 sm:hidden"
+    className="mt-10 px-20 sm:hidden"
     style={
       Object {
         "opacity": 0,
@@ -77,7 +77,7 @@ exports[`About page should render correctly 1`] = `
       <li
         className="flow-text"
       >
-        The Health sector as an Information System Support at Atlantic Health System. Utilizing my skills for troubleshooting systems, networks, automation and data entry.
+        The Health sector, as an Application Analyzes at Atlantic Health System. Utilizing my skills for troubleshooting systems, networks, automation and data entry.
       </li>
       <li
         className="flow-text"
@@ -98,20 +98,6 @@ exports[`About page should render correctly 1`] = `
       className="flow-text"
     >
       I enjoy developing software, learning new technologies, mentoring and helping others. I've continuously learned new technologies to pursuit my passion and consider myself a jack-of-all-trades.
-    </p>
-  </div>
-  <div
-    style={
-      Object {
-        "opacity": 0,
-        "transform": "scale(0) translateZ(0)",
-      }
-    }
-  >
-    <p
-      className="flow-text"
-    >
-      Since a very young age, I have developed a passion for technology, solving complex problems and data analyzes.
     </p>
   </div>
   <div
