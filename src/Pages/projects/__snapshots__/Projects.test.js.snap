@@ -264,9 +264,10 @@ exports[`Projects page should render correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            <ion-icon
-              name="logo-github"
-              size="large"
+            <iconify-icon
+              height="32px"
+              icon="logo-github"
+              width="32px"
             />
           </a>
           <a
@@ -275,9 +276,10 @@ exports[`Projects page should render correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            <ion-icon
-              name="globe-outline"
-              size="large"
+            <iconify-icon
+              height="32px"
+              icon="globe-outline"
+              width="32px"
             />
           </a>
         </div>
@@ -545,9 +547,10 @@ exports[`Projects page should render correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            <ion-icon
-              name="logo-github"
-              size="large"
+            <iconify-icon
+              height="32px"
+              icon="logo-github"
+              width="32px"
             />
           </a>
           <a
@@ -556,9 +559,10 @@ exports[`Projects page should render correctly 1`] = `
             rel="noreferrer"
             target="_blank"
           >
-            <ion-icon
-              name="globe-outline"
-              size="large"
+            <iconify-icon
+              height="32px"
+              icon="globe-outline"
+              width="32px"
             />
           </a>
         </div>
