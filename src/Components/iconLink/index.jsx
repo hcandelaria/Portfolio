@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 
 const IconLink = (props) => {
-  const style = props.className ? 'icon-link ' + props.className : 'icon-link';
+  const style = props.className ? "icon-link " + props.className : "icon-link";
   return (
-    <a className={style} href={props.link} target='_blank' rel='noreferrer'>
-      <ion-icon size='large' name={props.icon} />
+    <a className={style} href={props.link} target="_blank" rel="noreferrer">
+      <iconify-icon width="32px" height="32px" icon={props.icon} />
     </a>
   );
 };

@@ -12,23 +12,23 @@ body {
   scrollbar-width: none; /* Firefox */
 }
 
-ion-icon {
+iconify-icon {
   fill: #ffffff;
   color: #ffffff;
 }
 
-.icon-link ion-icon:hover {
+.icon-link iconify-icon:hover {
   fill: #0ca5e9;
   color: #0ca5e9;
 }
 
-.icon-link ion-icon {
+.icon-link iconify-icon {
   margin: 10px 2.5px 0px 2.5px;
   fill: #ffffff;
   color: #ffffff;
 }
 
-.disabled.icon-link ion-icon {
+.disabled.icon-link iconify-icon {
   pointer-events: none;
   fill: #323232;
   color: #323232;
