@@ -9,9 +9,9 @@ class NavigationMenu extends React.Component {
       openMobileNavMenu: true,
       location: window.location.pathname || "/",
       links: [
-        { to: "/", name: "Home", icon: "home-outline" },
-        { to: "/about", name: "About", icon: "book-outline" },
-        { to: "/projects", name: "Projects", icon: "briefcase-outline" },
+        { to: "/", name: "Home", icon: "line-md:home" },
+        { to: "/about", name: "About", icon: "line-md:text-box" },
+        { to: "/projects", name: "Projects", icon: "line-md:briefcase" },
       ],
     };
     this.updateOpenMobileNavMenu = this.updateOpenMobileNavMenu.bind(this);

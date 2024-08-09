@@ -18,7 +18,7 @@ exports[`Projects page should render correctly 1`] = `
     }
   >
     <div
-      className="bg-black-russian-700 flex justify-center mx-4 mt-5"
+      className="mx-4 mt-5 flex justify-center bg-black-russian-700"
       role="note"
       style={
         Object {
@@ -28,7 +28,7 @@ exports[`Projects page should render correctly 1`] = `
       }
     >
       <div
-        className="rounded-lg max-w-sm"
+        className="max-w-sm rounded-lg"
       >
         <div
           className="carousel slide relative p-2"
@@ -36,7 +36,7 @@ exports[`Projects page should render correctly 1`] = `
           id="imageCarousel"
         >
           <div
-            className="carousel-inner relative w-full flex overflow-hidden"
+            className="carousel-inner relative flex w-full overflow-hidden"
           >
             <div
               className="carousel-item active min-w-full"
@@ -95,17 +95,18 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <button
-            className="flex absolute top-0 left-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            className="group absolute left-0 top-0 z-10 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
             data-carousel-prev={true}
             onClick={[Function]}
             type="button"
           >
             <span
-              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10"
             >
-              <ion-icon
-                name="arrow-back-outline"
-                size="large"
+              <iconify-icon
+                height="24"
+                icon="line-md:arrow-small-left"
+                width="24"
               />
               <span
                 className="hidden"
@@ -115,17 +116,18 @@ exports[`Projects page should render correctly 1`] = `
             </span>
           </button>
           <button
-            className="flex absolute top-0 right-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            className="group absolute right-0 top-0 z-10 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
             data-carousel-next={true}
             onClick={[Function]}
             type="button"
           >
             <span
-              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10"
             >
-              <ion-icon
-                name="arrow-forward-outline"
-                size="large"
+              <iconify-icon
+                height="24"
+                icon="line-md:arrow-small-right"
+                width="24"
               />
               <span
                 className="hidden"
@@ -139,17 +141,17 @@ exports[`Projects page should render correctly 1`] = `
           className="p-6"
         >
           <h5
-            className="text-gray-400 text-xl font-medium mb-2"
+            className="mb-2 text-xl font-medium text-gray-400"
           >
             Data Visualization
           </h5>
           <p
-            className="text-gray-300 text-base mb-4"
+            className="mb-4 text-base text-gray-300"
           >
             Data Visuaization for my data analysis.
           </p>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Frontend:
             <div
@@ -189,7 +191,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Backend:
             <div
@@ -214,7 +216,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Services:
             <div
@@ -234,7 +236,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Analisys:
             <div
@@ -265,8 +267,8 @@ exports[`Projects page should render correctly 1`] = `
             target="_blank"
           >
             <iconify-icon
-              height="32px"
-              icon="logo-github"
+              globe-outlineheight="32px"
+              icon="line-md:github"
               width="32px"
             />
           </a>
@@ -277,8 +279,8 @@ exports[`Projects page should render correctly 1`] = `
             target="_blank"
           >
             <iconify-icon
-              height="32px"
-              icon="globe-outline"
+              globe-outlineheight="32px"
+              icon="line-md:cloud"
               width="32px"
             />
           </a>
@@ -286,7 +288,7 @@ exports[`Projects page should render correctly 1`] = `
       </div>
     </div>
     <div
-      className="bg-black-russian-700 flex justify-center mx-4 mt-5"
+      className="mx-4 mt-5 flex justify-center bg-black-russian-700"
       role="note"
       style={
         Object {
@@ -296,7 +298,7 @@ exports[`Projects page should render correctly 1`] = `
       }
     >
       <div
-        className="rounded-lg max-w-sm"
+        className="max-w-sm rounded-lg"
       >
         <div
           className="carousel slide relative p-2"
@@ -304,7 +306,7 @@ exports[`Projects page should render correctly 1`] = `
           id="imageCarousel"
         >
           <div
-            className="carousel-inner relative w-full flex overflow-hidden"
+            className="carousel-inner relative flex w-full overflow-hidden"
           >
             <div
               className="carousel-item active min-w-full"
@@ -363,17 +365,18 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <button
-            className="flex absolute top-0 left-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            className="group absolute left-0 top-0 z-10 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
             data-carousel-prev={true}
             onClick={[Function]}
             type="button"
           >
             <span
-              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10"
             >
-              <ion-icon
-                name="arrow-back-outline"
-                size="large"
+              <iconify-icon
+                height="24"
+                icon="line-md:arrow-small-left"
+                width="24"
               />
               <span
                 className="hidden"
@@ -383,17 +386,18 @@ exports[`Projects page should render correctly 1`] = `
             </span>
           </button>
           <button
-            className="flex absolute top-0 right-0 z-10 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+            className="group absolute right-0 top-0 z-10 flex h-full cursor-pointer items-center justify-center px-4 focus:outline-none"
             data-carousel-next={true}
             onClick={[Function]}
             type="button"
           >
             <span
-              className="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+              className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white/30 group-hover:bg-white/50 group-focus:outline-none group-focus:ring-4 group-focus:ring-white dark:bg-gray-800/30 dark:group-hover:bg-gray-800/60 dark:group-focus:ring-gray-800/70 sm:h-10 sm:w-10"
             >
-              <ion-icon
-                name="arrow-forward-outline"
-                size="large"
+              <iconify-icon
+                height="24"
+                icon="line-md:arrow-small-right"
+                width="24"
               />
               <span
                 className="hidden"
@@ -407,17 +411,17 @@ exports[`Projects page should render correctly 1`] = `
           className="p-6"
         >
           <h5
-            className="text-gray-400 text-xl font-medium mb-2"
+            className="mb-2 text-xl font-medium text-gray-400"
           >
             Data Visualization
           </h5>
           <p
-            className="text-gray-300 text-base mb-4"
+            className="mb-4 text-base text-gray-300"
           >
             Data Visuaization for my data analysis.
           </p>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Frontend:
             <div
@@ -457,7 +461,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Backend:
             <div
@@ -482,7 +486,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Services:
             <div
@@ -502,7 +506,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Analisys:
             <div
@@ -527,7 +531,7 @@ exports[`Projects page should render correctly 1`] = `
             </div>
           </div>
           <div
-            className="justify-center my-1 select-none whitespace-pre-wrap text-gray-300"
+            className="my-1 select-none justify-center whitespace-pre-wrap text-gray-300"
           >
             Test:
             <div
@@ -548,8 +552,8 @@ exports[`Projects page should render correctly 1`] = `
             target="_blank"
           >
             <iconify-icon
-              height="32px"
-              icon="logo-github"
+              globe-outlineheight="32px"
+              icon="line-md:github"
               width="32px"
             />
           </a>
@@ -560,8 +564,8 @@ exports[`Projects page should render correctly 1`] = `
             target="_blank"
           >
             <iconify-icon
-              height="32px"
-              icon="globe-outline"
+              globe-outlineheight="32px"
+              icon="line-md:cloud"
               width="32px"
             />
           </a>

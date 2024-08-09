@@ -1,8 +1,8 @@
-import { motion } from 'framer-motion';
-import React from 'react';
-import Loading from '../../Components/loading';
-import Note from '../../Components/note';
-import { getAllItems } from '../../libs/api';
+import { motion } from "framer-motion";
+import React from "react";
+import Loading from "../../Components/loading";
+import Note from "../../Components/note";
+import { getAllItems } from "../../libs/api";
 
 const section = {
   hidden: { opacity: 1, scale: 0 },
@@ -45,21 +45,21 @@ class Projects extends React.Component {
   render() {
     return (
       <motion.section
-        id='projects-page'
-        data-testid='projects-page'
-        className='min-h-screen items-center justify-center py-4 sm:ml-40'
+        id="projects-page"
+        data-testid="projects-page"
+        className="min-h-screen items-center justify-center py-4 sm:ml-40"
       >
         {this.state.projects ? (
           <motion.ul
-            className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
-            id='projects-container'
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+            id="projects-container"
             variants={section}
-            initial='hidden'
-            animate='visible'
+            initial="hidden"
+            animate="visible"
           >
             {this.state.projects.map((project) => {
               return (
-                <Note className='shadow-lg' key={project.id} data={project} />
+                <Note className="shadow-lg" key={project.id} data={project} />
               );
             })}
           </motion.ul>

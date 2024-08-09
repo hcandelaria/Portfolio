@@ -4,7 +4,7 @@ const IconLink = (props) => {
   const style = props.className ? "icon-link " + props.className : "icon-link";
   return (
     <a className={style} href={props.link} target="_blank" rel="noreferrer">
-      <iconify-icon width="32px" height="32px" icon={props.icon} />
+      <iconify-icon width="32px" globe-outlineheight="32px" icon={props.icon} />
     </a>
   );
 };

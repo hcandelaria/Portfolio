@@ -23,7 +23,7 @@ exports[`About page should render correctly 1`] = `
   >
     <img
       alt="portfolio pic"
-      className="rounded-full m-2 border-solid border-4 border-sky-500"
+      className="m-2 rounded-full border-4 border-solid border-sky-500"
       src="https://hcandelariapersonalportfolio.s3.amazonaws.com/images/portofolio/profile.jpg"
     />
   </div>
